@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encriptador de texto</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
+  
   <body>
+    <header></header>
+    <main>
     <div class="Container">
       <div class="encriptar">
         <textarea
@@ -33,23 +37,16 @@
           onclick="desencriptar()"
         />
       </div>
+    </div>
       <div class="encriptado">
         <img src="img/muñeco.png" alt="" id="muñeco" />
         <div class="mensaje-encriptado" id="mensaje-encriptado">
           <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
           <p id="parrafo">
-            Ingrese el texto que deses encriptar o desencriptar
+            Ingrese el texto que deseas encriptar o desencriptar.
           </p>
-          <!--textarea
-            name="mensaje"
-            id="mensaje"
-            cols="30"
-            rows="10"
-            class="mensaje"
-          ></!--textarea-->
-        </div>
-      </div>
     </div>
     <script src="script/script.js"></script>
   </body>
+</main>
 </html>
